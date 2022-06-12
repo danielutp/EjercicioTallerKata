@@ -1,5 +1,6 @@
 # EjercicioTallerKata
-------------------------------Se siguio la guia de los videos montados en la plataforma, donde se realizo el crud de ajax, fetch y axios, ademas se agrego un poco de estilo a la pagina.
+------------------------------
+Se siguio la guia de los videos montados en la plataforma, donde se realizo el crud de ajax, fetch y axios, ademas se agrego un poco de estilo a la pagina.
 
 -------------------------------
 Preguntas:
