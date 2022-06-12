@@ -4,28 +4,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/style.css">
   <title>CRUD API REST AXIOS</title>
 </head>
 
 <body>
+<div class="container cont">
   <h1>CRUD API REST AXIOS</h1>
   <section class="crud">
     <article>
       <h2 class="crud-title">Agregar Santo</h2>
       <form class="crud-form">
-        <input type="text" name="nombre" placeholder="nombre" required>
+        <input type="text" class="form-control" name="nombre" placeholder="nombre" required>
         <br>
-        <input type="text" name="constelacion" placeholder="constelación" required>
+        <input type="text" class="form-control" name="constelacion" placeholder="constelación" required>
         <br>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" class="btn btn-success">
         <input type="hidden" name="id">
       </form>
     </article>
+    <br>
     <article>
       <h2>Ver Santos</h2>
-      <table class="crud-table">
+      <table class="crud-table table table-hover">
         <thead>
-          <tr>
+          <tr >
             <th>Nombre</th>
             <th>Constelación</th>
             <th>Acciones</th>
@@ -35,13 +39,14 @@
       </table>
     </article>
   </section>
+</div>
   <template id="crud-template">
-    <tr>
+    <tr class="table-primary">
       <td class="name"></td>
       <td class="constellation"></td>
       <td>
-        <button class="edit">Editar</button>
-        <button class="delete">Eliminar</button>
+        <button class="edit btn btn-outline-info">Editar</button>
+        <button class="delete btn btn-outline-danger">Eliminar</button>
       </td>
     </tr>
   </template>
