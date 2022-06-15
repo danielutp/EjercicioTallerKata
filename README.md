@@ -8,3 +8,6 @@ Preguntas:
 2. Que operaciones se pueden hacer en un CRUD?
 3. Que es Fetch?
 ------------------------------
+
+Link de Youtube:
+https://youtu.be/_dP7N1FIG6M
